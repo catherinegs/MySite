@@ -1,0 +1,258 @@
+/* Définition des polices personnalisées */
+
+@font-face
+{
+    font-family: 'BallparkWeiner';
+    src: url('polices/ballpark.eot');
+    src: url('polices/ballpark.eot?#iefix') format('embedded-opentype'),
+         url('polices/ballpark.woff') format('woff'),
+         url('polices/ballpark.ttf') format('truetype'),
+         url('polices/ballpark.svg#BallparkWeiner') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'Dayrom';
+    src: url('polices/dayrom.eot');
+    src: url('polices/dayrom.eot?#iefix') format('embedded-opentype'),
+         url('polices/dayrom.woff') format('woff'),
+         url('polices/dayrom.ttf') format('truetype'),
+         url('polices/dayrom.svg#Dayrom') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face { /* Dfinition d'une nouvelle police nomme LearningCurveProRegular */
+
+    font-family: 'LearningCurveProRegular';
+    src: url('polices/LearningCurve_OT-webfont.eot');
+    src: url('polices/LearningCurve_OT-webfont.eot?#iefix') format('embedded-opentype'),
+    url('polices/LearningCurve_OT-webfont.woff') format('woff'),
+    url('polices/LearningCurve_OT-webfont.ttf') format('truetype'),
+    url('polices/LearningCurve_OT-webfont.svg#LearningCurveProRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	font-family: Dayrom, Geneva, Tahoma;
+	color: #555;
+	background-color: #f4511e;
+	height: 100%;	
+}
+
+
+.carousel-inner img {
+   -webkit-filter: grayscale(90%);
+      width: 50%;
+      max-height: 500px;
+      margin: 30%;
+      position : relative;
+      
+  }
+  
+  .carousel-caption h1 {
+    color:  #FFF !important;
+}
+  
+  .carousel-caption p {
+  font-family: BallparkWeiner, Geneva, Tahoma;
+  font-size: 25px;
+  color:  #FFF !important;
+  }
+ 
+
+@media (max-width: 600px) {
+    .carousel-caption {
+        display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+    }
+}
+
+.well {
+    background-color:#fff;
+}
+
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #f4511e;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #f4511e !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle  {
+    border-color: transparent;
+    color: #fff !important;
+}
+
+.open .dropdown-toggle {
+      color: #fff;
+      background-color: #555 !important;
+  }
+  .dropdown-menu li a {
+      color: #000 !important;
+  }
+  .dropdown-menu li a:hover {
+      background-color: red !important;
+  }
+  
+  
+
+
+#offre h1, #infos h1, #portfolio h1, #cv h1, #globalseis h1, #blog h1
+{
+font-family: BallparkWeiner, Geneva, Tahoma;
+font-size: 3.5em;
+font-weight: normal;
+color: #555;
+}
+
+.container text-center p
+{
+text-align: justify;
+font-family: Dayrom, Geneva, Tahoma;
+font-size: 1.0em; 
+}
+
+
+.img-circle
+{  width: 180px;
+   height: 160px;
+}
+
+
+ /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    footer {
+	  background-color: #555;
+      color: #ffffff;
+    }
+    
+    
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+  
+  
+  .container h2, h3
+  {
+   font-family: LearningCurveProRegular, Geneva, sans-serif;
+   font-size: 2.0em;
+   font-weight: normal; 
+}
+
+#logo_cv {
+    width:200px; 
+    height: 300px;
+    position: top-right;
+    }
+     
+  
+  
+  img {
+  
+  width:"400"; 
+  height:"285"
+  
+  }
+  
+.btn-success
+{
+ box-shadow: 1px 2px 5px #000000;
+}
+  
+  /* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    font-family: LearningCurveProRegular, Geneva, sans-serif;
+    font-size: 2.0em;
+    font-weight: normal; 
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal p {color: #000;}
+
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}

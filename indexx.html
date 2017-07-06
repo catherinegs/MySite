@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Site : CGS Computing</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="personal informations and professional experiences in computing and geophysics sciences" />
+        <meta name="author" content="Catherine GOURDIN-SANGOUARD"> 
+        <meta name="identifier-url" content="http://www-cgourdinsg.pagesperso-orange.fr"> 
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="home1.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    </head>
+
+    <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                    </button>
+                    <a class="navbar-brand" href="#myPage">CGS Computing Site</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">                        
+
+
+                        <li><a href="#portfolio">Mon Portfolio</a></li>
+                        <li><a href="#blog">Blog</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+
+                <div class="item active">
+                    <img src="contenu/leadImage_large.jpg" alt="fac de nice">
+                    <div class="carousel-caption">
+
+                        <p>Faculté des Sciences, Campus Valrose Nice</p>  
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="contenu/Photov.jpg" alt="egu vienne">
+                    <div class="carousel-caption">
+
+                        <p>Assemblée de l'union européenne des géophysiciens à Vienne, Autriche</p>  
+                    </div>
+                </div>
+
+
+
+                <div class="item">
+                    <img src="contenu/San_Francisco.jpg" alt="sfagu">
+                    <div class="carousel-caption">
+                        <p>Assemblée de l'union américaine des géophysiciens à San Francisco</p>  
+                    </div>
+                </div>
+
+
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Avant</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Après</span>
+            </a>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row content">
+
+
+
+
+
+
+
+
+
+                <!-- Container (The Portfolio Section) -->
+                <div class="col-sm-3">
+                    <div id="portfolio"> 
+
+                        <h1>Mon Portfolio</h1>
+
+                        <h2>Exemples</h2><br>
+                        <!-- Trigger/Open The Modal -->
+
+                        <button type="button" class="btn btn-success" id="myBtn">JEE/JSF</button>
+                        <button type="button" class="btn btn-success"  id="myBtn2">JavaScript</button>
+
+
+                        <!-- The Modal -->
+                        <div id="myModal" class="modal" role="dialog">
+                            <div class="modal-dialog">
+                                <!-- Modal content -->
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button class="close" data-dismiss="modal">×</button>
+                                        <h2>JEE/JSF</h2>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h2>webservice de géolocalisation</h2>
+                                        <p>
+                                            projet développé: un webservice REST de géolocalisation avec une base de données qui peut etre complétée par l'utilisateur.  
+                                            Technologie utilisée : java/JEE7, EJB3, service REST, hibernate (JPA), mySQL, API graphic jsf, primefaces, Git, openshift,  méthodologie scrum
+                                            <br>pour voir le projet
+                                            <a href="contenu/geolocate.xhtml.html">Geolocate</a>
+                                        </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- The Modal -->
+                        <div id="myModal2" class="modal" role="dialog">
+                            <div class="modal-dialog">
+                                <!-- Modal content -->
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button class="close" data-dismiss="modal">×</button>
+                                        <h2>Javascript</h2>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h2>jeu: trouver le bon nombre</h2>
+                                        <p>
+                                            <a href="contenu/devinette.html">Jeu</a>
+                                        </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <script>
+
+                    // When the user clicks the button, open the modal 
+
+                    $(document).ready(function () {
+                        $("#myBtn").click(function () {
+                            $("#myModal").modal({backdrop: false});
+                        });
+                        $("#myBtn2").click(function () {
+                            $("#myModal2").modal({backdrop: false});
+                        });
+                    });
+
+                </script>
+
+                <!-- Container (The Portfolio Section) -->
+                <div class="col-sm-9">
+                    <div id="blog"> 
+                        <h1> Mes Articles </h1>
+
+                        <div class="well well-lg">
+
+                            <h2>Recherches Géophysique</h2>
+
+
+                            <div class="row">
+                                <div class="col-sm-4">
+
+                                    <p class="text-center">
+                                    <h3><strong>Scientific Article: Normal modes splitting estimations from recent large
+                                            earthquakes</strong></h3>
+                                    </p><br>
+
+
+
+                                    <a href="#demo4" data-toggle="collapse">
+                                        <img src="contenu/image.jpg" class="img-circle person" alt="image of splitting effects" width="255" height="255">
+                                    </a>
+                                    <div id="demo4" class="collapse"> 
+
+                                        <p>Research in collaboration with G. Laske, G. Masters and G. Nolet at Geoazur laboratory</p>
+                                        <p>The observation of the splitting of normal modes was a very active research field
+                                            in the 1990's but has seen little improvement since then. Paradoxically, in the last ten
+                                            years the number of high-quality, digital broadband stations has grown by almost an
+                                            order of magnitude, and the last decade has seen no shortage of strong earthquakes.
+                                            The time is therefore ripe to revisit the topic.</p>
+                                        <p>Recent large earthquakes recorded by the global seismic network are studied to com-
+                                            pute and determinate the splitting characteristics of normal mode multiplets. Our ulti-
+                                            mate goal is to use these data together with multiple-frequency travel times to invert for
+                                            structure of the Earth's mantle. In a first effort, we analyzed nearly 80 earthquakes in
+                                            the period 2000-2010 using a mode stripping technique. This allowed us to do a rigor-
+                                            ous quality control. We strip multiplets of different spectra computed from more 15000
+                                            recordings of 50 events. Since we desire to get informations about the lower mantle, the
+                                            maximum angular order studied is 12 for a maximum frequency of 5 mHz.</p>
+                                        <p>In the second step, we use the autoregressive estimation technique of Masters et al.
+                                            (GJI, 2000), which allows for solving the splitting matrix system without knowledge of
+                                            the earthquake source.
+                                            We present results from the first step that show how we use the technique to strip
+                                            multiplets of different spectra computed from three components of multiple events in
+                                            the period of study to select suitable data for subsequent autoregressive estimation.
+                                            New estimations of splitting are also computed for a variety of multiplets. We also
+                                            present splitting estimates from the autoregressive technique and make a comparison
+                                            with earlier data, as well as with recent efforts by other groups to re-determine mode
+                                            splitting. We check the robustess of this estimates using a 'jackknifing' test in which we
+                                            repeatedly remove a random fraction (10%) of the data and recompute the coefficients.</p>
+                                    </div>
+
+                                </div>
+
+
+                                <div class="col-sm-4">
+                                    <div class="text-center">
+
+
+
+                                        <h2>Poster Scientifique</h2>
+                                        <p><a href="contenu/posterAGU.pdf"> <img src="contenu/posterAGU.jpeg" class="img-rounded" width="302" height="188" alt="PosterAGU"/></a>
+                                        </p>
+
+
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-4">
+                                    <div class="text-center">
+
+                                        <ul class="list-group">
+
+
+                                            <li><a href="contenu/File1.html">Risque sismique 1</a></li>
+
+                                            <li><a href="contenu/File2.html">Risque sismique 2</a></li>
+
+                                            <li><a href="contenu/File3.html">Risque sismique 3</a></li>
+
+                                        </ul>  
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div> 
+
+
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+
+        <ul class="nav pull-right scroll-top">
+            <li><a href="#" title="Scroll to top"><i class="glyphicon glyphicon-chevron-up"></i></a></li>
+        </ul>
+
+        <footer id="footer">
+            <p class="text-center"> cgs computing </p>
+
+        </footer>
+
+
+        <script>
+            $(document).ready(function () {
+                // Add smooth scrolling to all links in navbar + footer link
+                $(".navbar a, footer a[href='#myPage']").on('click', function (event) {
+
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
+
+                    // Store hash
+                    var hash = this.hash;
+
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 900, function () {
+
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                });
+            })
+        </script>
+
+
+
+
+
+    </body>
+</html>
